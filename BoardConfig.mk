@@ -223,11 +223,12 @@ SHRP_AB := true
 SHRP_REC := no_recovery_partition 
 
 # Put 0 to disable flashlight
-SHRP_FLASH := 1
+SHRP_FLASH := 2
 SHRP_CUSTOM_FLASHLIGHT := true
-SHRP_FONP_1 := /sys/class/torch/torch/torch_level
-SHRP_FONP_2 := /sys/class/sub_torch/sub_torch/sub_torch_level
-SHRP_FONP_3 := /sys/class/flashlight_core/flashlight/flashlight_torch
+SHRP_FONP_1 := /sys/devices/virtual/torch/torch/torch_level
+SHRP_FONP_2 := /sys/class/torch/torch/torch_level
+SHRP_FONP_3 := /sys/class/sub_torch/sub_torch/sub_torch_level
+SHRP_FONP_4 := /sys/class/flashlight_core/flashlight/flashlight_torch
 
 # Default (if not set) will use /system if SHRP_EXPRESS true otherwise will use legacy method of patching
 SHRP_EXPRESS_USE_DATA := true
