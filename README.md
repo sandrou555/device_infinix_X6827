@@ -1,4 +1,4 @@
-# Android device tree for Infinix Hot 30 (X6831)
+# Android device tree for Infinix Hot 20S (X6827)
 
 Blocking checks
 - [x] Correct screen/recovery size
